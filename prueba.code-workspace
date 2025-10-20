@@ -1,0 +1,74 @@
+{
+  "extensions": {
+    "recommendations": [
+      "alexcvzz.vscode-sqlite",
+      "asdine.cue",
+      "astro-build.astro-vscode",
+      "biati.vscode-text-tools",
+      "bierner.markdown-mermaid",
+      "charliermarsh.ruff",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "firsttris.vscode-jest-runner",
+      "glebbash.opa-highlight-only",
+      "golang.go",
+      "GrapeCity.gc-excelviewer",
+      "GraphQL.vscode-graphql",
+      "hashicorp.terraform",
+      "jnoortheen.nix-ide",
+      "joaompinto.vscode-graphviz",
+      "mads-hartmann.bash-ide-vscode",
+      "mkhl.shfmt",
+      "ms-python.mypy-type-checker",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "njpwerner.autodocstring",
+      "PKief.material-icon-theme",
+      "shardulm94.trailing-spaces",
+      "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries",
+      "streetsidesoftware.code-spell-checker",
+      "tamasfe.even-better-toml",
+      "unifiedjs.vscode-mdx",
+      "usernamehw.errorlens",
+      "yoavbls.pretty-ts-errors"
+    ],
+  },
+  "folders": [
+    {
+      "name": "root",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "[markdown]": {
+      "editor.rulers": [
+        80
+      ]
+    },
+    "[mdx]": {
+      "editor.defaultFormatter": "unifiedjs.vscode-mdx",
+      "editor.rulers": [
+        80
+      ]
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.wordWrap": "on",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.tabSize": 2,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "shfmt.executableArgs": [
+      "-bn",
+      "-ci",
+      "-i",
+      "2",
+      "-s",
+      "-sr"
+    ],
+  }
+}
